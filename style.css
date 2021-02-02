@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    display: inline;
+    padding: 16px 20px;
+    margin: 0 5px 0 5px;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    padding: 30px;
+    margin: 5px;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 22px;
+}
