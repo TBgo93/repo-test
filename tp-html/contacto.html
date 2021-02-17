@@ -3,66 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
     <title>Formulario de Contacto</title>
 </head>
 <body>
-    <style>
-        body{
-            margin: 0;
-            background: linear-gradient(to right bottom, #4e8a98, #cdcdcd);
-            display: flex;
-            flex-direction: column;
-        }
-        header{
-            position: relative;
-        }
-        nav{
-            padding: 20px 0;
-            height: 60px;
-            width: 100%;
-            position: absolute;
-        }
-        .ul{
-            display: flex;
-            position: fixed;
-            right: 0;
-        }
-        .li{
-            display: flex;
-            align-items: center;
-            font-size: 1.125rem;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 0 40px;
-            font-weight: 300;
-            letter-spacing: 3px;
-        }
-        a,a:link,a:hover,a:active{
-            text-decoration: none;
-            color: #000;
-        }
-        h1,h2,h3,h4,h5,h6{
-            margin: 20px auto;
-        }
-        legend{
-            font: 1.5rem sans-serif;
-        }
-        fieldset{
-            margin: 10px 0 10px 0;
-        }
-    </style>
+    <nav>
+        <div class="main-nav">
+            <ul class="ul">
+                <li class="li"><a href="index.html">Inicio</a></li>
+            </ul>
+        </div>
+    </nav>
     <header>
-        <nav>
-            <div class="main-nav">
-                <ul class="ul">
-                    <li class="li"><a href="index.html">Inicio</a></li>
-                </ul>
-            </div>
-        </nav>
     </header>
-    <main style="display: flex;top: 20%;justify-content: space-evenly;margin: 7% 0;">
+    <main>
         <section>
             <form action="#" onsubmit="javascript:alert('Gracias por tomarte tu tiempo');">
-                <fieldset style="border-radius: 25px;background: rgb(0 0 0 / 20%);padding: 35px 25px;display: flex;flex-direction: column; width: 100%;">
+                <fieldset id="general">
                     <fieldset id="datospersonales" required>
                         <legend>Datos Personales</legend>
                         <label>Nombre</label><br>
