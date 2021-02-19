@@ -87,6 +87,18 @@ hr{
     justify-content: center;
 }
 
+table{
+    margin: auto 15px;
+}
+
+tr:hover {
+    background-color: #b1b1b185;
+}
+
+#iframe{
+    margin: auto 15px;
+}
+
 #biografia{
     background-color: #71b4d2;
     width: 100%;
